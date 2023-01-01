@@ -65,7 +65,7 @@ span .hamburger{
   text-align: center;
   background-image: url("temi.jpg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 
 }
 .hero h1 {
