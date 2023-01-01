@@ -64,7 +64,7 @@ span .hamburger{
   font-family: sans-serif;
   text-align: center;
   background-image: url("temi.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: contain;
 
 }
