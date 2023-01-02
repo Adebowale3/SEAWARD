@@ -23,7 +23,7 @@ header {
 }
 .logo {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   cursor: pointer;
 }
 .it {
@@ -38,6 +38,7 @@ header {
   color: white;
   margin-right: 8px;
   margin-left: 20px;
+  font-size: 30px;
   cursor: pointer;
 }
 li .home {
@@ -72,12 +73,12 @@ span .hamburger{
 }
 .hero h1 {
   color: #d72638;
-  font-size: 55px;
+  font-size: 65px;
   padding-top: 100px;
 }
 .hero p {
   color: #d72638;
-  font-size: 20px;
+  font-size: 30px;
   padding-top: 20px;
 }
 /* Subscribe section styling */
@@ -92,7 +93,7 @@ span .hamburger{
 }
 .subscribe h2 {
   color: white;
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .subscribe-input {
@@ -133,7 +134,7 @@ span .hamburger{
 
 footer {
   
-  font-size: 20px;
+  font-size: 25px;
   font-weight: bold;
   color: white;
   background-color: #d72638;
@@ -157,14 +158,14 @@ footer {
 }
 
 .about-us {
-  font-size: 18px;
+  font-size: 28px;
   width: 60%;
 }
 .about-us h3 {
   margin-bottom: 16px;
 }
 .aside {
-  font-size: 18px;
+  font-size: 28px;
   width: 30%;
   height: 250px;
   color: white;
@@ -209,7 +210,7 @@ footer {
   margin-top: 20px;
 }
 .services-aside {
-  font-size: 18px;
+  font-size: 28px;
   width: 30%;
   height: 300px;
   color: white;
