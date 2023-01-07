@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   /* box-sizing: border-box; */
+
 }
 body{
   width: 100vw;
@@ -11,6 +12,7 @@ body{
   padding-bottom: 97.5px;
   font-family: 'Booter-ZeroZero', cursive;
 
+
 }
 
 /* header styling */
@@ -19,22 +21,28 @@ header {
   background-color: #140f2d;
   padding: 30px;
   border-bottom: 3px solid orange;
+  font-family: 'Booter-ZeroZero', cursive;
+
 }
 
 .logo-container{
+
   display: flex;
   justify-content: center;
   align-items: center;
 }
 header .image-logo{
+
   width: 50px;
   height: auto;
   border-radius: 50%;
 }
 .logo {
   color: white;
-  font-size: 40px;
+  font-size: 50px;
   cursor: pointer;
+ 
+  
 }
 .it {
   color: orange;
@@ -94,8 +102,9 @@ span .hamburger{
 /* Subscribe section styling */
 
 .subscribe {
+  font-family: 'Booter-ZeroZero', cursive;
+font-size: 30px;
   background-color: #140f2d;
-  /* height: 15vh; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -107,12 +116,14 @@ span .hamburger{
 }
 
 .subscribe-input {
+  
+  /* background-color: orange; */
   padding: 8px;
-  width: 220px;
+  width: 200px;
   outline: none;
 }
 .subscribe-btn {
-  padding: 10px 20px;
+  padding: 10px 20px ;
   background-color: orange;
   color: white;
   border: none;
@@ -121,11 +132,12 @@ span .hamburger{
 /* skill set styling */
 
 .braids{
-
+  font-family: 'Booter-ZeroZero', cursive;
+width: 100vw;
   background-color: #020122;
   padding: 60px;
-  margin: 0;
-  border-top: 2px solid orange;
+  margin: 30px;
+  border: 2px solid orange;
 }
 
 .skill-set {
@@ -164,14 +176,14 @@ span .hamburger{
   background: transparent;
   top: 250px;
   left:500px;
-  -webkit-transform:scale(2);
-  -moz-transform:scale(2);
-  -o-transform:scale(2);
-  -ms-transform: scale(2);
-  transform: scale(3);
-  opacity: 3;
+  -webkit-transform:scale(1.5);
+  -moz-transform:scale(1.5);
+  -o-transform:scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  /* opacity:3; */
   border:2px solid orange;
-  border-radius: 55%;
+  border-radius: 50%;
 }
 
 /* zoom effect ends */
@@ -180,8 +192,7 @@ span .hamburger{
 
 footer {
   
-  font-size: 25px;
-  font-weight: bold;
+  font-size: 15px;
   color: #999;
   background-color: #140f2d;
   text-align: center;
@@ -335,10 +346,10 @@ footer {
     
   }
 
-  .skill-set {
+  /* .skill-set {
     flex-direction: column;
     margin: 30px 80px;
-  }
+  } */
 
   .markup-skills {
       width: 100%;
@@ -451,10 +462,10 @@ footer {
     
   }
 
-  .skill-set {
+  /* .skill-set {
     flex-direction: column;
     margin: 30px 80px;
-  }
+  } */
 
   .markup-skills {
       width: 100%;
@@ -532,7 +543,7 @@ footer {
   }
     
 
-   
+    
 }
 
 
