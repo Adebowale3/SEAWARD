@@ -35,7 +35,27 @@ header .image-logo{
 
   width: 50px;
   height: auto;
+  border: 1px inset ;
   border-radius: 50%;
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+header .image-logo:hover{
+
+  visibility: visible;
+  background: transparent;
+  top: 250px;
+  left:500px;
+  -webkit-transform:scale(2);
+  -moz-transform:scale(2);
+  -o-transform:scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  /* opacity:3; */
+  border:1px solid orange;
+  border-radius: 50%;
+
 }
 .logo {
   color: white;
@@ -84,19 +104,20 @@ span .hamburger{
   height: 400px;
   font-family: 'Booter-ZeroZero', cursive;
   text-align: center;
-  background-image: url("temi.jpg");
+  background-image: url("temilade.png");
   background-repeat: repeat;
   background-size: contain;
 
 }
 .hero h1 {
-  color: #ff521b ;
+  color: #edd382;
   font-size: 65px;
+  font-weight: bold;
   padding-top: 100px;
 }
 .hero p {
-  color: #ff521b ;
-  font-size: 35px;
+  color: #edd382;
+  font-size: 45px;
   padding-top: 20px;
 }
 /* Subscribe section styling */
@@ -117,13 +138,13 @@ font-size: 30px;
 
 .subscribe-input {
   
-  /* background-color: orange; */
   padding: 8px;
   width: 200px;
   outline: none;
 }
 .subscribe-btn {
-  padding: 10px 20px ;
+  padding: 8px;
+  width: 200px;
   background-color: orange;
   color: white;
   border: none;
@@ -136,8 +157,8 @@ font-size: 30px;
 width: 100vw;
   background-color: #020122;
   padding: 60px;
-  margin: 30px;
-  border: 2px solid orange;
+  margin: 0 auto;
+  border: 2px solid #edd382;
 }
 
 .skill-set {
@@ -148,8 +169,8 @@ width: 100vw;
   margin: 30px 80px;
 }
 .skill-set img {
-  /* height: auto; */
   width: 100px;
+  height: auto;
 }
 .markup-skills {
   padding: 0 30px;
@@ -164,7 +185,7 @@ width: 100vw;
 }
 .markup-skills img{
 
-  border: 3px solid orange;
+  border: 3px inset #edd382;
 
   border-radius: 10%;
 }
@@ -181,9 +202,9 @@ width: 100vw;
   -o-transform:scale(1.5);
   -ms-transform: scale(1.5);
   transform: scale(1.5);
-  /* opacity:3; */
-  border:2px solid orange;
-  border-radius: 50%;
+  opacity:2;
+  border:1px solid orange;
+  border-radius: 10%;
 }
 
 /* zoom effect ends */
@@ -314,11 +335,11 @@ footer {
         display: block;
     }
 .hero h1 {
-    font-size: 30px;
+    font-size: 45px;
     padding-top: 80px;
   }
   .hero p{
-      font-size: 18px;
+      font-size: 28px;
   }
 
   .subscribe {
@@ -327,7 +348,7 @@ footer {
   }
 
   .subscribe h2 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 5px;
   }
   .subscribe form{
@@ -335,14 +356,14 @@ footer {
   }
 
   .subscribe-input {
-    width: 90%;
+    width: 100%;
     margin-bottom: 8px;
     
   }
 
   .subscribe-btn {
     display: block;
-    width: 97%;
+    width: 100%;
     
   }
 
@@ -430,11 +451,11 @@ footer {
         display: block;
     }
 .hero h1 {
-    font-size: 30px;
+    font-size: 45px;
     padding-top: 80px;
   }
   .hero p{
-      font-size: 18px;
+      font-size: 25px;
   }
 
   .subscribe {
@@ -451,14 +472,14 @@ footer {
   }
 
   .subscribe-input {
-    width: 90%;
+    width: 100%;
     margin-bottom: 8px;
     
   }
 
   .subscribe-btn {
     display: block;
-    width: 95%;
+    width: 100%;
     
   }
 
