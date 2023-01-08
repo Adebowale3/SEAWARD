@@ -267,6 +267,7 @@ footer {
 /* service page styling */
 
 .services-section {
+  font-family: 'Booter-ZeroZero', cursive;
   display: flex;
   justify-content: space-between;
   padding: 30px;
